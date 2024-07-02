@@ -1,0 +1,88 @@
+:root{
+    --corpadrao: rgb(226, 79, 226);
+}
+
+
+* {
+
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(13, 13, 13);
+    font-family: sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+.imc-container{
+   float: left;
+}
+
+.resposta-container{
+    padding: 1px 0 0px 400px;
+}
+
+.section1{
+    max-width: 640px;
+    margin: 30px auto;
+    background-color: white;
+    padding:  6px 20px;
+}
+
+form, form label, form input, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+form input{
+    height: 45px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--corpadrao);
+}
+
+#peso-input::placeholder{
+    font-size: 15px;
+}
+
+#altura-input::placeholder{
+    font-size: 15px;
+}
+
+button{
+    margin-top: 30px;
+    background-color: var(--corpadrao);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+}
+
+button:hover{
+    background-color: var(--corpadrao)
+}
+
+.resposta-boa{
+    background-color: rgb(13, 147, 53);
+}
+.resposta-ruim{
+    background-color: rgb(223, 63, 63);
+}
+.resposta-media{
+    background-color: yellow;
+}
+button:hover{
+    background-color: rgb(226, 79, 226, 0.4);
+}
